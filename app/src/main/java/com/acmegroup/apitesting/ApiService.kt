@@ -12,7 +12,7 @@ interface ApiService {
 }
 
 object ApiClient {
-    private const val BASE_URL = "http://202.61.198.180/api/"
+    private const val BASE_URL = "http://94.16.122.220/api/"
 
     private val retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
